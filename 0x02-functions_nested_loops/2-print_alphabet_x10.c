@@ -21,7 +21,7 @@ _putchar(ko);
 ko++;
 }
 _putchar('\n');
-i++;
+n++;
 }
 }
 
