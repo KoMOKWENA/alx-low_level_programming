@@ -13,7 +13,7 @@ for (l = 0; l < 10; l++)
 {
 for (m = 0; m < 10; m++)
 {
-n = m * l;
+o = m * l;
 if (m == 0)
 {
 _putchar(n + '0');
