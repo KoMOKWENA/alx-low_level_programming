@@ -17,6 +17,6 @@ if (k < 0)
 
 k = -k;
 _putchar(k + '0');
-return (k);		
+return (k);
 }
 
