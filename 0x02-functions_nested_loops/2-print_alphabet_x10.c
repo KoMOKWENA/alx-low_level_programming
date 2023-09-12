@@ -14,7 +14,7 @@ n = 0;
 
 while (n < 10)
 {
-ch = 'a';
+ko = 'a';
 while (ko <= 'z')
 {
 _putchar(ko);
