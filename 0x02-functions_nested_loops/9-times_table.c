@@ -9,7 +9,7 @@ void times_table(void)
 int l, m, o;
 
 
-for (k = 0; l < 10; l++)
+for (l = 0; l < 10; l++)
 {
 for (m = 0; m < 10; m++)
 {
@@ -26,7 +26,8 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 _putchar(l + '0');
-} else if (l >= 10)
+}
+else if (l >= 10)
 {
 _putchar(',');
 _putchar(' ');
