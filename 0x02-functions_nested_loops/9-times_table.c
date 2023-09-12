@@ -16,7 +16,7 @@ for (m = 0; m < 10; m++)
 o = m * l;
 if (m == 0)
 {
-_putchar(n + '0');
+_putchar(o + '0');
 }
 
 
@@ -25,14 +25,14 @@ if (l < 10 && m != 0)
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
-_putchar(l + '0');
+_putchar(o + '0');
 }
-else if (l >= 10)
+else if (o >= 10)
 {
 _putchar(',');
 _putchar(' ');
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
+_putchar((o / 10) + '0');
+_putchar((o % 10) + '0');
 }
 }
 _putchar('\n');
