@@ -20,7 +20,7 @@ _putchar(o + '0');
 }
 
 
-if (l < 10 && m != 0)
+if (o < 10 && m != 0)
 {
 _putchar(',');
 _putchar(' ');
