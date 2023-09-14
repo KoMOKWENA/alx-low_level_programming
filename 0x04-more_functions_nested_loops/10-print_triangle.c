@@ -19,13 +19,13 @@ int m, g;
 for (m = 1; m <= size; m++)
 {
 for (g = m; g < size; g++)
- {
+{
 _putchar(' ');
 }
 
 for (g = 1; g <= m; g++)
 {
- _putchar('#');
+_putchar('#');
 }
 
 _putchar('\n');
