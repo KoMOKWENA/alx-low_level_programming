@@ -7,8 +7,8 @@
  * Return: addition of the multiplicattion
  */
 
-int mul(int m, int n)
+int mul(int a, int b)
 {
-return (m * n);
+return (a * b);
 }
 
