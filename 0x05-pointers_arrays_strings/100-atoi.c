@@ -40,7 +40,7 @@ c = c * 10 + digit;
 b = 1;
 if (s[a + 1] < '0' || s[a + 1] > '9')
 break;
-f = 0;
+b = 0;
 }
 a++;
 }
@@ -48,5 +48,5 @@ if (b == 0)
 return (0);
 
 
-return (n);
+return (c);
 }
