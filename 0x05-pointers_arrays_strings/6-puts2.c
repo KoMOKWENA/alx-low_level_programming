@@ -18,14 +18,14 @@ int i;
 while (*y != '\0')
 {
 y++;
-long++;
+longi++;
 }
-m = long - 1;
+m = longi - 1;
 for (i = 0 ; i <= m ; i++)
 {
 if (i % 2 == 0)
 {
-_putchar(str[o]);
+_putchar(str[i]);
 }
 }
 _putchar('\n');
