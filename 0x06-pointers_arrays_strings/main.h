@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdio.h>
+
 void print_buffer(char *b, int size);
 char *rot13(char *a);
 void print_number(int n);
