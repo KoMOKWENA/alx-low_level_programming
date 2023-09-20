@@ -21,12 +21,12 @@ return;
 }
 while (k < size)
 {
-l = size - o < 10 ? size - o : 10;
-printf("%08x: ", o);
+l = size - k < 10 ? size - k : 10;
+printf("%08x: ", k);
 for (m = 0; m < 10; m++)
 {
 if (m < l)
-printf("%02x", *(b + o + m));
+printf("%02x", *(b + k + m));
 else
 printf("  ");
 if (m % 2)
@@ -47,8 +47,5 @@ printf("%c", c);
 printf("\n");
 k += 10;
 }
-}
-dest[m] = '\0';
-return (dest);
 }
 
