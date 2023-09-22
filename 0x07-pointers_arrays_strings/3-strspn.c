@@ -28,6 +28,6 @@ return (y);
 }
 s++;
 }
-return (n);
+return (y);
 }
 
