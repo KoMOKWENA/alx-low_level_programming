@@ -15,7 +15,7 @@ int e;
 
 for (d = 0; d < 8; d++)
 {
-for (e = 0; j < 8; e++)
+for (e = 0; e < 8; e++)
 _putchar(a[d][e]);
 _putchar('\n');
 }
