@@ -24,10 +24,10 @@ digit = 0;
 while (s[len] != '\0')
 len++;
 
-while (j < len && f == 0)
+while (j < len && l == 0)
 {
 if (s[j] == '-')
-++d;
+++k;
 
 if (s[j] >= '0' && s[j] <= '9')
 {
@@ -35,7 +35,7 @@ digit = s[j] - '0';
 if (k % 2)
 digit = -digit;
 n = n * 10 + digit;
-f = 1;
+l = 1;
 if (s[j + 1] < '0' || s[j + 1] > '9')
 break;
 l = 0;
