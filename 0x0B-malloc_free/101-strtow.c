@@ -79,10 +79,6 @@ l = 0;
 else if (l++ == 0)
 start = j;
 }
-
-
 matrix[k] = NULL;
-
-
 return (matrix);
 }
