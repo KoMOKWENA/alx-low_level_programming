@@ -19,7 +19,7 @@ return (NULL);
 
 for (j = 0; j < ac; j++)
 {
-for (n = 0; av[j][m]; m++)
+for (m = 0; av[j][m]; m++)
 l++;
 }
 l += ac;
