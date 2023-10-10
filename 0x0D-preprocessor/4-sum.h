@@ -5,7 +5,7 @@
 /**
  *File: 4-sum
  *@x: first input value
- *@y: second input value 
+ *@y: second input value
  *Desco: the sum of x and y
  */
 
