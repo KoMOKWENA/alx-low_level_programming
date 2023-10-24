@@ -19,8 +19,7 @@ listint_t *temp = *head;
 
 
 ptr = malloc(sizeof(listint_t));
-if
-(!ptr || !head);
+if (!ptr || !head)
 return (NULL);
 
 
