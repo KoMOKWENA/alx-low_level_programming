@@ -4,14 +4,14 @@
 /**
  * add_nodeint_end - adds a node at the end of a linked list
  * @head: pointer header
- * @n: inout data 
+ * @n: input data
  *
- * Return: addres of new element 
+ * Return: addres of new element
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
- listint_t *ptr;
- listint_t *temp = *head;
+listint_t *ptr;
+listint_t *temp = *head;
 
 ptr = malloc(sizeof(listint_t));
 if (!ptr)
