@@ -2,7 +2,7 @@
 
 /**
  * free_listint - frees a linked list
- * @head: input heder pointer 
+ * @head: input heder pointer
  */
 
 void free_listint(listint_t *head)
