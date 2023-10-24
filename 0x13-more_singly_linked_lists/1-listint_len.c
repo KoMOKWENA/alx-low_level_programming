@@ -12,7 +12,7 @@ size_t cont = 0;
 
 while (h)
 {
-num++;
+cont++;
 h = h->next;
 }
 return (cont);
