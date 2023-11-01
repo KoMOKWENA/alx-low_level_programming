@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
 * append_text_to_file - append text to the end of a file
@@ -25,7 +26,7 @@ return (-1);
 
 
 if (text_content)
-b_written = write(fd, text_content, _strlen(text_content));
+b_written = write(fd, text_content, strlen(text_content));
 
 
 close(fd);
